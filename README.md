@@ -13,7 +13,7 @@ Our PersonalityEvd dataset is organized under the `dataset` folder \
   - file format:
     ```Python
     "character": {
-        "dlg_num":---,
+        "dlg_num": ...,
         "annotation": {
             "dialogue id": {"openness": {"level": ... ,"utt_id": ... ,"nat_lang": ...},  "conscientiousness": ... , },
       ...
