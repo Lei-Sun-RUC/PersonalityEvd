@@ -4,7 +4,7 @@ This is the repository of our EMNLP 2024 Main conference paper ["Revealing Perso
 
 ## PersonalityEvd Dataset
 
-Our PersonalityEvd dataset is organized under the `dataset` folder \
+Our PersonalityEvd dataset is organized under the `Dataset` folder \
 1. dialogue.json: contains dialogue data for 72 characters, totaling 1924 dialogues
 2. EPR-State Task folder: annotation for EPR-State task
 - train_annotation.json：annotation of train set, 51 characters
@@ -38,7 +38,7 @@ Our PersonalityEvd dataset is organized under the `dataset` folder \
     - "nat_lang"：natural language evidence composed of `dialogue summaries` and `personality characteristics`
 
 ## Model
-There are scripts in folder `Code/EPR-State Task/ChatGLM/sh` to trian or test the model.
+There are bash scripts in folder `Code of EPR-State Task/ChatGLM/sh` to trian or test the model.
 
 We use the code from this open-source repository [ChatGLM-Finetuning](<https://github.com/liucongg/ChatGLM-Finetuning>), and we are very grateful to the author.
 
