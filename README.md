@@ -11,9 +11,9 @@ Our PersonalityEvd dataset is organized under the `dataset` folder \
 - valid_annotation.json：annotation of valid set, 7 characters
 - test_annotation.json：annotation of test set, 14 characters
   - file format:
-    ```json
+    ```Python
     "character": {
-        "dlg_num": ...,
+        "dlg_num":---,
         "annotation": {
             "dialogue id": {"openness": {"level": ... ,"utt_id": ... ,"nat_lang": ...},  "conscientiousness": ... , },
       ...
@@ -26,7 +26,7 @@ Our PersonalityEvd dataset is organized under the `dataset` folder \
 - 3_folds.json: contain the characters of each fold
 - trait_annotation.json:
   - file format:
-    ```json
+    ```Python
     "character": {
           "openness": {"level": ... , "dlg_id": ... , "nat_lang": ... },
           "conscientiousness": {"level": ... , "dlg_id": ... , "nat_lang": ... },
